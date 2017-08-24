@@ -36,9 +36,6 @@
         }
       },
       helper: function(e, ui) {
-        ui.children().each(function() {
-          $(this).width($(this).width());
-        });
         return ui.addClass('structure-sortable-helper');
       },
       update: function() {
